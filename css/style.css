@@ -1,0 +1,30 @@
+body{ 
+    padding: 100px;
+}
+
+.submit-area {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 7px 8px 10px lightgray;
+}
+
+
+.transection-area {
+    display: none;
+}
+.transection-area .deposit {
+    background-color: blue;
+}
+.transection-area .withdaw {
+    background-color: lightsalmon;
+}
+.transection-area .blance {
+    background-color: orange;
+}
+.item{
+    color:#fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pioneer Bank</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="login-area" class="login-area">
+        <h2 class="text-center">Welcome Our Pioneer Bank</h2>
+        <div class="submit-area mt-5">
+            <h4>Login</h4>
+            <input id="input-email" class="form-control" type="email" placeholder="Enter your Email">
+            <br>
+            <input class="form-control" type="password" placeholder="Type your password">
+            <br>
+            <button id="loginBtn" class="btn btn-success">Submit</button>
+        </div>
+    </div>
+    <div id="transition-area" class="transection-area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposit item">
+                    <h5>Deposit</h5>
+                    <h2>$<span id="deposit-amount">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdaw item">
+                    <h5>Withdaw</h5>
+                    <h2>$<span id="withdaw-blance">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blance item">
+                    <h5>Blance</h5>
+                    <h2>$<span id="current-blance">1240</span></h2>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Transition Area -->
+        <div class="row amount-area">
+            <div class="col-md-6">
+                <div class="submit-area">
+                    <input id="depositAmount" type="text" placeholder=" $ You can deposit" class="form-control">
+                <br>
+                <button id="depositSubmit" class="btn btn-success">Deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="submit-area">
+                    <input id="withdawAmount" type="text" placeholder="$ some dithdaw" class="form-control">
+                <br>
+                <button id="withdaw-submit" class="btn btn-success">Withdaw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} -->
+    <!-- key:3684c9cee0d7f1e8f0760e243a3231e1 -->
+    
+</body>
+</html>
